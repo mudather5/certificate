@@ -10,11 +10,239 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+/* html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
+ */
+
+body{
+    background-color: #f4f4f4;
+}
+
+input{
+    background-color: #f4f4f4; 
+}
+
+.dropdown{
+    margin-right: 50px;
+}
+
+tbody{
+    text-align: center;
+}
+
+/*index.php */
+
+.home-stats .stat{
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.home-stats .stat span{
+    display: block;
+    font-size: 60px;
+}
+.home-stats .members{
+    background-color: #3498db;
+}
+.home-stats .pending{
+    background-color: #c0392b;
+}
+.home-stats .items{
+    background-color: #d35400;
+}
+.home-stats .comments{
+    background-color: #8e44ad;
+}
+
+.home-stats .stat a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.lets{
+    margin-top: 40px;
+}
+
+.navbar-brand, ul{
+    margin-left: 60px;
+}
+#app-nav{
+    color: white;
+    
+}
+.dropdown-menu{
+    margin: 8px 15px;
+}
+.dropdown{
+    margin-left: 450px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none; 
+}
+.navbar a:hover{
+    color: white;
+}
+.main-table thead{
+    background-color: #333;
+    color: #fff; 
+}
+
+.categories{
+    max-width: 600px;
+}
+
+.card{
+    max-width: 400px;
+}
+
+.control{
+    max-width: 600px;
+}
+.error-message{
+    background: white;
+    color: #ff9999;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.reponse{
+    background: white;
+    color: #2dcb33;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.icon input[type=text],
+.envolope input[type=email],
+.eye input[type=password]{
+    padding-left: 40px;
+}
+.icon, .eye,
+.envolope, .star{
+    position: relative;
+}
+.star i{
+    position: absolute;
+    margin-left: 93%;
+    top: 41px;
+    color: #FA8072;
+    
+}
+
+.head{
+    margin-left: 66%;
+}
+
+
+.icon i, .eye i,
+.envolope i{
+    position: absolute;
+    left: 0;
+    padding: 9px 8px;
+    color: dodgerblue;
+}
+.icon i,
+.eye i,
+.envolope i{
+    top: 33px;
+}
+
+
+footer{
+    margin-top: auto;
+}
+
+/*begin categories */
+.category .cat h5{
+    margin: 0 0 10;
+}
+
+.category .cat:last-of-type ~hr {
+    display: none;
+}
+hr{
+    border: solid 2px;
+}
+
+.category .cat .commenting{
+    background: #c0392b;
+    color: white;
+    padding: 4px 6px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+.category .cat{
+    position: relative;
+    padding: 15px;
+    overflow: hidden;
+}
+.category .cat .hidden-button{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    position: absolute;
+    top: 15px;
+    right: -120px;
+    
+}
+.login-page form{
+    max-width: 300px;
+    margin: auto;
+}
+
+.login-page [data-class="login"].selected {
+    color: #337ab7;
+}
+.login-page [data-class="logup"].selected {
+    color: #5cb85c;
+}
+.login-page h1{
+    color: #C0C0C0;
+}
+.login-page h1 span{
+    cursor: pointer;
+}
+
+.login-page .logup{
+    display: none;
+}
+.alert{
+    max-width: 300px;
+}
+
+
+.computer{
+    position: relative;
+}
+
+.price{
+    position: absolute;
+    bottom: 238px;
+    left: 1px;
+    background: black;
+    font-size: 13px;
+    color: white;
+
+}
+
+.category .cat:hover .hidden-button{
+    right: 10px;
+}
+/* end */
+
+
+
+
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -127,8 +355,6 @@ textarea {
 @media (min-width: 1200px) {
 
 }
-
-
 
 
 
